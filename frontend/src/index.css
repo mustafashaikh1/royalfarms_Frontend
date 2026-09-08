@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* 3D Flip Card Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Royal Farms Infinite Marquee */
+@keyframes rf-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-rf-scroll {
+  display: flex;
+  width: max-content;
+  animation: rf-scroll 35s linear infinite;
+}
+
+.rf-marquee-text {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(2rem, 5vw, 4.5rem);
+  font-weight: 800;
+  white-space: nowrap;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #1f7a4d;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+/* Image Masked Headline */
+.image-masked-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.15;
+  background-image: url('/assets/pexels-jloren3bcnspain-726123-1536x1152.jpg');
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Testimonial Bubble Tail */
+.testimonial-bubble {
+  position: relative;
+}
+
+.testimonial-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  left: 36px;
+  border-width: 14px 14px 0 0;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
