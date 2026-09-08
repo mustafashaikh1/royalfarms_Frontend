@@ -8,7 +8,7 @@ const slides = [
     headlineStart: "Trusted ",
     headlineHighlight: "Livestock Farming",
     headlineEnd: " for Smart Investors",
-    description: "Royal Farms provides ethical, high-return livestock farming opportunities across India.",
+    description: "Mali Patil Farm provides ethical, high-return livestock farming opportunities across India.",
     btnPrimary: "Learn More",
     btnPrimaryAction: "#services",
     btnSecondary: "Contact Us",
@@ -20,7 +20,7 @@ const slides = [
     headlineStart: "Professionally Managed ",
     headlineHighlight: "Farms Built on Trust",
     headlineEnd: " & Transparency",
-    description: "Royal Farms delivers ethically managed poultry, sheep, and cattle farming solutions with transparent operations, professional care, and long-term value.",
+    description: "Mali Patil Farm delivers ethically managed poultry, sheep, and cattle farming solutions with transparent operations, professional care, and long-term value.",
     btnPrimary: "Talk to an Expert",
     btnPrimaryAction: "contact",
     btnSecondary: "Explore Services",
@@ -64,7 +64,7 @@ export default function HeroSection({ onOpenContact }) {
         >
           <img
             src={s.image}
-            alt="Royal Farms hero slide"
+            alt="Mali Patil Farm hero slide"
             className="w-full h-full object-cover object-center"
             onError={(e) => {
               e.target.src = '/assets/photorealistic-scene-poultry-farm-with-chickens-scaled.jpg';

@@ -33,7 +33,7 @@ export default function ContactModal({ isOpen, onClose, defaultInterest = "Gener
 
     try {
       const response = await submitEnquiry(formData);
-      setSuccessMsg(response.message || 'Thank you! Your enquiry has been submitted to Royal Farms.');
+      setSuccessMsg(response.message || 'Thank you! Your enquiry has been submitted to Mali Patil Farm.');
       setFormData({
         name: '',
         email: '',
@@ -68,7 +68,7 @@ export default function ContactModal({ isOpen, onClose, defaultInterest = "Gener
         {/* Modal Header */}
         <div className="space-y-1 pr-8 mb-6">
           <span className="text-xs font-bold uppercase tracking-wider text-[#0B5136]">
-            Royal Farms Enquiry
+            Mali Patil Farm Enquiry
           </span>
           <h2 className="text-2xl font-bold text-gray-900">
             Book A Slot / Get In Touch
@@ -185,7 +185,7 @@ export default function ContactModal({ isOpen, onClose, defaultInterest = "Gener
             {loading ? (
               <>
                 <Loader2 className="w-4 h-4 animate-spin" />
-                <span>Submitting to Royal Farms...</span>
+                <span>Submitting to Mali Patil Farm...</span>
               </>
             ) : (
               <>

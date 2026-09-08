@@ -15,7 +15,7 @@ export default function AboutSection({ onOpenContact }) {
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3]">
                 <img
                   src="/assets/pexels-jloren3bcnspain-726123-1536x1152.jpg"
-                  alt="Royal Farms ethical livestock management"
+                  alt="Mali Patil Farm ethical livestock management"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
               </div>
@@ -24,7 +24,7 @@ export default function AboutSection({ onOpenContact }) {
               <div className="hidden sm:block absolute -bottom-10 -right-6 w-3/5 rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3]">
                 <img
                   src="/assets/pexels-pixabay-144240-1536x1088.jpg"
-                  alt="Royal Farms pasture"
+                  alt="Mali Patil Farm pasture"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
               </div>
@@ -46,16 +46,16 @@ export default function AboutSection({ onOpenContact }) {
           <div className="lg:col-span-6 space-y-6 pt-6 lg:pt-0">
             
             <div className="inline-block text-sm font-semibold tracking-wider uppercase text-[#0B5136] bg-emerald-50 px-3.5 py-1 rounded-full border border-emerald-200">
-              About Royal Farms
+              About Mali Patil Farm
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
               Managed Livestock <br />
-              <span className="text-[#0B5136]">Farming by Royal Farms</span>
+              <span className="text-[#0B5136]">Farming by Mali Patil Farm</span>
             </h2>
 
             <p className="text-gray-600 text-base leading-relaxed">
-              <strong>Royal Farms</strong> offers a fully managed livestock farming model focused on ethical animal care, professional operations, and consistent long-term returns.
+              <strong>Mali Patil Farm</strong> offers a fully managed livestock farming model focused on ethical animal care, professional operations, and consistent long-term returns.
             </p>
 
             {/* Value Highlights */}

@@ -43,12 +43,12 @@ export default function Header({ onOpenContact }) {
           <a href="#" className="flex items-center gap-3 group">
             <img 
               src="/assets/Frame-2-2.png" 
-              alt="Royal Farms Logo" 
+              alt="Mali Patil Farm Logo" 
               className="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-105"
             />
             <div className="flex flex-col">
               <span className="font-bold text-xl tracking-tight text-[#0B5136]">
-                ROYAL FARMS
+                MALI PATIL FARM
               </span>
               <span className="text-[10px] text-gray-500 uppercase tracking-widest -mt-1 font-medium">
                 Ethical Livestock
@@ -168,7 +168,7 @@ export default function Header({ onOpenContact }) {
             <a 
               href="tel:6362900144"
               className="w-9 h-9 rounded-full bg-[#0B5136] text-white flex items-center justify-center"
-              aria-label="Call Royal Farms"
+              aria-label="Call Mali Patil Farm"
             >
               <Phone className="w-4 h-4" />
             </a>

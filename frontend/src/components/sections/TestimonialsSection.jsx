@@ -38,10 +38,10 @@ export default function TestimonialsSection() {
               Testimonials
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 font-sans">
-              Voices That Trust Royal Farm
+              Voices That Trust Mali Patil Farm
             </h2>
             <p className="text-gray-600 text-sm sm:text-base max-w-xl">
-              Hear from happy customers who love our freshness, quality, and care — real stories that inspire trust in Royal Farm.
+              Hear from happy customers who love our freshness, quality, and care — real stories that inspire trust in Mali Patil Farm.
             </p>
           </div>
 

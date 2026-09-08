@@ -54,7 +54,7 @@ export default function ServicesSection({ onOpenContact }) {
             <span>Our Services</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 font-sans">
-            What We Do at Royal Farms
+            What We Do at Mali Patil Farm
           </h2>
           <p className="text-gray-600 text-sm sm:text-base">
             Professionally managed livestock farming services focused on animal health, high yield, and sustainable growth.

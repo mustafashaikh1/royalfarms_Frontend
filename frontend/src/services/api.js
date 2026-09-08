@@ -15,7 +15,7 @@ export async function fetchTestimonials() {
         id: 1,
         authorName: "Rajesh Mehta",
         location: "Pune, Maharashtra",
-        comment: "Partnering with Royal Farms has transformed my poultry business. Their EC shed system is truly efficient and reliable. I’ve seen faster growth and better profits.",
+        comment: "Partnering with Mali Patil Farm has transformed my poultry business. Their EC shed system is truly efficient and reliable. I’ve seen faster growth and better profits.",
         avatarUrl: "/assets/Frame-4-1.webp",
         rating: 5
       },
@@ -23,7 +23,7 @@ export async function fetchTestimonials() {
         id: 2,
         authorName: "Sumanth Reddy",
         location: "Warangal, Telangana",
-        comment: "The support from Royal Farms is exceptional. From training to veterinary care, everything is well-organized. My birds are healthier, and the operations are smooth.",
+        comment: "The support from Mali Patil Farm is exceptional. From training to veterinary care, everything is well-organized. My birds are healthier, and the operations are smooth.",
         avatarUrl: "/assets/Frame-5-1.webp",
         rating: 5
       },
@@ -31,7 +31,7 @@ export async function fetchTestimonials() {
         id: 3,
         authorName: "Ankit Sharma",
         location: "Jaipur, Rajasthan",
-        comment: "I was new to poultry farming, but Royal Farms guided me through every step. Their integrated model made it easy to get started and succeed quickly.",
+        comment: "I was new to poultry farming, but Mali Patil Farm guided me through every step. Their integrated model made it easy to get started and succeed quickly.",
         avatarUrl: "/assets/Person_4.jpg",
         rating: 5
       },
@@ -39,7 +39,7 @@ export async function fetchTestimonials() {
         id: 4,
         authorName: "M. Prakash",
         location: "Coimbatore, Tamil Nadu",
-        comment: "Choosing Royal Farms was the best decision for my farm. The technology, team support, and overall system helped me grow my business confidently and sustainably.",
+        comment: "Choosing Mali Patil Farm was the best decision for my farm. The technology, team support, and overall system helped me grow my business confidently and sustainably.",
         avatarUrl: "/assets/Frame-3.webp",
         rating: 5
       },
@@ -47,7 +47,7 @@ export async function fetchTestimonials() {
         id: 5,
         authorName: "Nikita Chauhan",
         location: "Dehradun, Uttarakhand",
-        comment: "What impressed me most is their professional support and transparent processes. Royal Farms truly cares about farmers’ growth and long-term success.",
+        comment: "What impressed me most is their professional support and transparent processes. Mali Patil Farm truly cares about farmers’ growth and long-term success.",
         avatarUrl: "/assets/Frame-8.webp",
         rating: 5
       },
@@ -55,7 +55,7 @@ export async function fetchTestimonials() {
         id: 6,
         authorName: "Sameera Deshpande",
         location: "Nagpur, Maharashtra",
-        comment: "The EC shed technology by Royal Farms works wonders. It keeps the birds comfortable, which directly reflects in better health and weight gain.",
+        comment: "The EC shed technology by Mali Patil Farm works wonders. It keeps the birds comfortable, which directly reflects in better health and weight gain.",
         avatarUrl: "/assets/Frame-9-1.webp",
         rating: 5
       },
@@ -71,7 +71,7 @@ export async function fetchTestimonials() {
         id: 8,
         authorName: "Anju Patel",
         location: "Ahmedabad, Gujarat",
-        comment: "Royal Farms is not just a service provider, they’re a true partner. Their model is perfect for farmers who want stability and consistent income.",
+        comment: "Mali Patil Farm is not just a service provider, they’re a true partner. Their model is perfect for farmers who want stability and consistent income.",
         avatarUrl: "/assets/Frame-10.webp",
         rating: 5
       }
@@ -189,7 +189,7 @@ export async function submitEnquiry(enquiryData) {
       console.warn('Backend server currently offline, recording enquiry locally for demo:', enquiryData);
       return {
         success: true,
-        message: 'Thank you for contacting Royal Farms! Our team will get in touch with you shortly.'
+        message: 'Thank you for contacting Mali Patil Farm! Our team will get in touch with you shortly.'
       };
     }
     throw err;

@@ -9,7 +9,7 @@ export default function SmartInvestmentSection({ onOpenContact }) {
         {/* Stylized Image-Masked Big Headline */}
         <div className="image-masked-text text-4xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tight uppercase">
           Smart Livestock Investment <br />
-          with Royal Farms
+          with Mali Patil Farm
         </div>
 
         <p className="max-w-2xl mx-auto text-gray-600 text-base sm:text-lg leading-relaxed">

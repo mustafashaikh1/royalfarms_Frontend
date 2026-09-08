@@ -35,13 +35,13 @@ export default function WhyChooseUsSection() {
             <div className="space-y-3">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-[#0B5136] text-xs font-semibold uppercase tracking-wider">
                 <Award className="w-3.5 h-3.5" />
-                <span>Why Choose Royal Farms</span>
+                <span>Why Choose Mali Patil Farm</span>
               </div>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Experience Purity, Freshness, and <span className="text-[#0B5136]">Trust with Royal Farm</span>
+                Experience Purity, Freshness, and <span className="text-[#0B5136]">Trust with Mali Patil Farm</span>
               </h2>
               <p className="text-gray-600 text-base leading-relaxed">
-                <strong>Royal Farms</strong> offers a professionally managed livestock farming model focused on ethical practices, transparency, and long-term value.
+                <strong>Mali Patil Farm</strong> offers a professionally managed livestock farming model focused on ethical practices, transparency, and long-term value.
               </p>
             </div>
 
@@ -71,7 +71,7 @@ export default function WhyChooseUsSection() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[3/4]">
               <img
                 src="/assets/heads-black-white-holstein-cows-feeding-grass-stable-holland-scaled.jpg"
-                alt="Royal Farms pasture livestock"
+                alt="Mali Patil Farm pasture livestock"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex flex-col justify-end p-8 text-white">

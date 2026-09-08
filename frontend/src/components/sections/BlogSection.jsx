@@ -22,10 +22,10 @@ export default function BlogSection() {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="space-y-3">
             <div className="inline-block text-xs font-semibold tracking-wider uppercase text-[#0B5136] bg-emerald-50 px-3.5 py-1 rounded-full border border-emerald-200">
-              Royal Farms Insights
+              Mali Patil Farm Insights
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 font-sans">
-              What’s New at Royal Farms
+              What’s New at Mali Patil Farm
             </h2>
             <p className="text-gray-600 text-sm sm:text-base max-w-xl">
               Stay informed with industry insights, breeding advice, and modern goat &amp; livestock management guides.

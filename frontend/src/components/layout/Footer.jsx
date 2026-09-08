@@ -12,13 +12,13 @@ export default function Footer({ onOpenContact }) {
             <div className="flex items-center gap-3">
               <img 
                 src="/assets/logo.png" 
-                alt="Royal Farms" 
-                className="h-16 w-auto object-contain brightness-110"
+                alt="Mali Patil Farm" 
+                className="h-16 w-auto object-contain"
                 onError={(e) => { e.target.src = '/assets/Frame-2-2.png'; }}
               />
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Royal Farms, a subsidiary of Royalone solutions Pvt Ltd, stands tall as a distinguished Agri-Livestock company with its headquarters situated in Bengaluru, Karnataka, India.
+              Mali Patil Farm stands tall as a distinguished Agri-Livestock company with its headquarters situated in Bengaluru, Karnataka, India.
             </p>
           </div>
 
@@ -104,9 +104,9 @@ export default function Footer({ onOpenContact }) {
             </h3>
             <ul className="space-y-3.5 text-sm">
               <li>
-                <a href="mailto:hello@royalfarms.co.in" className="flex items-start gap-3 hover:text-[#FF9046] transition-colors">
+                <a href="mailto:hello@malipatilfarm.com" className="flex items-start gap-3 hover:text-[#FF9046] transition-colors">
                   <Mail className="w-5 h-5 text-[#FF9046] shrink-0 mt-0.5" />
-                  <span>hello@royalfarms.co.in</span>
+                  <span>hello@malipatilfarm.com</span>
                 </a>
               </li>
               <li>
@@ -128,7 +128,7 @@ export default function Footer({ onOpenContact }) {
 
         {/* Bottom Bar */}
         <div className="pt-6 text-center text-xs text-gray-500">
-          Royal farms © Copyrights 2025 All Rights Reserved.
+          Mali Patil Farm © Copyrights 2025 All Rights Reserved.
         </div>
       </div>
     </footer>
